@@ -239,9 +239,9 @@ bash configs/iwslt14.de-en/get_preprocessed.sh
 
     ```sh
     nohup \
-    python ./train.py --configs=configs/wmt19.en-de/subtransformer/wmt19ende_npu_test0@200ms.yml \
+    python ./train.py --configs=configs/wmt19.en-de/subtransformer/wmt19ende_npu@200ms.yml \
     --sub-configs=configs/wmt19.en-de/subtransformer/common.yml \
-    > test_results/test0/subtransformer/wmt19.en-de.txt 2>&1 \
+    > test_results/original/subtransformer/wmt19.en-de.txt 2>&1 \
     &
     ```
     </details>
