@@ -18,7 +18,7 @@ from fairseq.trainer import Trainer
 from fairseq.meters import AverageMeter, StopwatchMeter
 from copy import deepcopy
 
-from wrapper_models import wrapper_rknn_lite
+# from wrapper_models import wrapper_rknn_lite
 from tqdm import tqdm
 
 
