@@ -52,4 +52,4 @@ decoder-layers: 6
 encoder-attention-heads: 8
 decoder-attention-heads: 8
 
-qkv-dim: 512
+qkv-dim: 64

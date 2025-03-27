@@ -234,7 +234,17 @@ bash configs/iwslt14.de-en/get_preprocessed.sh
 
 ### Train a Searched SubTransformer
 1. Train a Model
-    * train
+    <details>
+    <summary>train</summary>
+
+    ```sh
+    nohup \
+    python ./train.py --configs=configs/wmt19.en-de/subtransformer/wmt19ende_npu@200ms.yml \
+    --sub-configs=configs/wmt19.en-de/subtransformer/common.yml \
+    > test_results/original/subtransformer/wmt19.en-de.txt 2>&1 \
+    &
+    ```
+    </details>
     ```sh
     python train.py --configs=[subtransformer_architecture].yml --sub-configs=configs/[task_name]/subtransformer/common.yml
     ```
