@@ -1,10 +1,10 @@
 train-subtransformer: True
 
 # model
-arch: transformersuper_wmt_en_de
+arch: transformersuper_wmt_en_fr
 share-all-embeddings: True
 max-tokens: 4096
-data: data/binary/wmt19_en_de
+data: data/binary/wmt14_en_fr
 
 # training settings
 optimizer: adam
@@ -31,8 +31,8 @@ lr-shrink: 1
 
 # logging
 keep-last-epochs: 20
-save-interval: 10
-validate-interval: 10
+save-interval: 1
+validate-interval: 1
 
 # SuperTransformer configs
 
@@ -52,4 +52,4 @@ decoder-layers: 6
 encoder-attention-heads: 8
 decoder-attention-heads: 8
 
-qkv-dim: 512
+qkv-dim: 64
