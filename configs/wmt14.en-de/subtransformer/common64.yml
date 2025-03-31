@@ -4,7 +4,7 @@ train-subtransformer: True
 arch: transformersuper_wmt_en_de
 share-all-embeddings: True
 max-tokens: 4096
-data: data/binary/wmt19_en_de
+data: data/binary/wmt16_en_de
 
 # training settings
 optimizer: adam
@@ -52,4 +52,4 @@ decoder-layers: 6
 encoder-attention-heads: 8
 decoder-attention-heads: 8
 
-qkv-dim: 512
+qkv-dim: 64
