@@ -31,8 +31,10 @@ lr-shrink: 1
 
 # logging
 keep-last-epochs: 20
-save-interval: 10
-validate-interval: 10
+# save-interval: 10
+# validate-interval: 10
+save-interval: 1
+validate-interval: 1
 
 # SuperTransformer configs
 
