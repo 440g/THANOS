@@ -56,3 +56,5 @@ latency_dataset/iwslt14deen_npu.csv:Zone.Identifier
 latency_dataset/wmt14ende_npu.csv:Zone.Identifier
 latency_dataset/wmt14enfr_npu.csv:Zone.Identifier
 latency_dataset/wmt19ende_npu.csv:Zone.Identifier
+fairseq/data/data_utils_fast.cpp
+fairseq/data/token_block_utils_fast.c
