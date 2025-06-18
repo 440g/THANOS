@@ -89,6 +89,19 @@ setup(
         'tensorboardx',
         'sacremoses'
     ],
+        extras_require={
+        'dev': [
+            'tabulate',
+            'coloredlogs',
+            'onnx',
+            'onnxruntime',
+            'filelock',
+            'flatbuffers',
+            'fsspec',
+            'triton',
+            'rknn-toolkit2'
+        ]
+    },
     packages=find_packages(exclude=['scripts', 'tests']),
     ext_modules=get_cython_modules() + [bleu],
     test_suite='tests',
