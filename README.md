@@ -13,7 +13,7 @@
 * [Contributors](#contributors)
 
 ## Introduction
-
+  The size of Transformer-based models is ever increasing, making it infeasible to deploy a model on edge devices with severe resource constraints. In this paper, we propose a search technique that integrates NAS(Neural Architecture Search) and HPO(HyperParameter Optimization) to find a hardware-friendly Transformer architecture that satisfies both memory and latency constraints. Evaluation results on the Rockchip 3588 NPU board show that latency was reduced by up to 2.15 times under the strict memory constraint of the NPU. This study significantly enhances the practicality of Transformer-based applications on edge devices and offers guidance for model optimization on AI-specific hardware.
 ## Getting Started
 ```sh
 git clone https://github.com/ei-ai/THANOS.git
